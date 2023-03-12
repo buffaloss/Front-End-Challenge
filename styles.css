@@ -74,6 +74,20 @@ h1 {
 }
 
 
+.keys.blue {
+    background-color: #2C365E;
+    color:white;
+    border: #2C365E;
+
+}
+
+.keys.green {
+    background-color: #4B8F8C;
+    color:white;
+    border: #4B8F8C;
+}
+
+
 .first-row-keys {
     height:2rem;
     width:3.5rem;
