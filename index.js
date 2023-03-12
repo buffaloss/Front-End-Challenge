@@ -7,6 +7,9 @@ for (let i=0; i<buttons.length; i++){
         setTimeout(() => {
             button.classList.remove("blue");
             button.classList.add("green");
+            setTimeout(() => {
+                button.classList.remove("green");
+              }, "60000");
           }, "3000");
     })
 }
