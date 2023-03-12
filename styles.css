@@ -1,0 +1,133 @@
+
+body {
+    background-color: #D3B1B5;
+    font-family: system-ui, sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+h1 {
+    --s: 0.6rem;
+    --c: #A7626A; 
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  h1:hover {--_p: 100%}
+  
+  
+  h1 {
+    font-size: 5rem;
+    cursor: pointer;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+
+.keyboard_wrap {
+    display:flex;
+    justify-content: center;
+    width: 76rem;
+    background-color: #A79599;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    padding: 1rem 0;
+    border: solid 1px white;
+    border-radius:5px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display:grid;
+}
+
+
+.keys {
+    height:3.5rem;
+    width:4rem;
+    padding:1px;
+    margin:2px;
+    border-radius: 10%;
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+}
+
+
+.first-row-keys {
+    height:2rem;
+    width:3.5rem;
+    padding:1px;
+    margin:2px;
+}
+
+.backspace-key {
+    width:6.75rem;
+}
+
+.tab-key {
+    width: 6rem;
+}
+
+.caps-lock-key {
+    width: 7rem;
+}
+
+.shift-key {
+    width: 7.5rem;
+}
+
+.up {
+    height:1.6rem;
+}
+
+.down {
+    height:1.6rem;
+}
+
+.space-key {
+    width:19.5rem;
+    border-radius: 3%;
+}
+
+.enter-key {
+    width:8rem;
+}
+
+.slash-key {
+    width:4.75rem;
+}
+
+.ctrl-key {
+    width:4rem;
+}
+
+.win-key {
+    width:4rem;
+
+}
+
+.alt-key {
+    width:4rem;
+
+}
